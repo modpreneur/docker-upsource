@@ -4,13 +4,3 @@
 Version `3.0.5`, build `4396` (released July 26, 2016).
 
 The image based on [java:openjdk-8-jre-alpine](https://hub.docker.com/r/library/java/tags/openjdk-8-jre-alpine/).
-
-## Usage
-
-Pull the image, create a new container and start it:
-
-```bash
-docker pull modpreneur/upsource
-docker create --name upsource -p 8080:8080 --restart=always modpreneur/upsource
-docker start upsource
-```

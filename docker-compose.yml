@@ -4,7 +4,6 @@ services:
     upsource:
         build:
             context: .
-        image: modpreneur/upsource
         container_name: upsource
         restart: always
         ports:
